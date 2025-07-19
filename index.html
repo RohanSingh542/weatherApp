@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Weather App</h2>
+        <form action="#">
+            <input type="text" id="city-name" placeholder="Enter the city name...">
+            <input type="submit" value="Get weather">
+        </form>
+        <div class="loading" style="display: none;">Loading...</div>
+        <div class="error-message" style="display: none; color: red; font-weight: bold; margin-top: 15px; margin-bottom: 15px;"></div>
+        <div class="weather-data">
+            <div class="icon">
+                <!-- <img src="https://openweathermap.org/img/wn/01d.png" alt=""> -->
+            </div>
+            <div class="temp"></div>
+            <div class="desc"></div>
+            <div class="details">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
